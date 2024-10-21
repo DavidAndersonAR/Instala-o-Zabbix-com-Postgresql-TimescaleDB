@@ -1,0 +1,3 @@
+DOWN: {?last(/host/net.if.in[ifHCInOctets.2])}
+
+UP: {?last(/host/net.if.out[ifHCOutOctets.2])}
