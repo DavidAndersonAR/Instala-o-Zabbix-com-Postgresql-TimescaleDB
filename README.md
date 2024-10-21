@@ -54,7 +54,7 @@ systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-Isntale dos TimescaleDB
+Isntalação do TimescaleDB
 
 ```bash
 sudo apt-get install timescaledb-2-postgresql-15='2.15.3~ubuntu24.04' timescaledb-2-loader-postgresql-15='2.15.3~ubuntu24.04*'
